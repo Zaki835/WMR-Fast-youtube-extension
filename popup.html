@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            width: 200px;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+        }
+        button {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        #startBtn {
+            background-color: #4CAF50;
+            color: white;
+        }
+        #stopBtn {
+            background-color: #f44336;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <button id="startBtn">Start</button>
+    <button id="stopBtn">Stop</button>
+
+    <script>
+        document.getElementById('startBtn').addEventListener('click', function() {
+            // كود التنفيذ عند الضغط على Start
+            console.log('Start button clicked');
+            // يمكنك إضافة الوظيفة المطلوبة هنا
+        });
+
+        document.getElementById('stopBtn').addEventListener('click', function() {
+            // كود التنفيذ عند الضغط على Stop
+            console.log('Stop button clicked');
+            // يمكنك إضافة الوظيفة المطلوبة هنا
+        });
+    </script>
+</body>
+</html>
